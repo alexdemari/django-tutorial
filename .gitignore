@@ -88,3 +88,18 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Provided default Pycharm Run/Debug Configurations should be tracked by git
+# In case of local modifications made by Pycharm, use update-index command
+# for each changed file, like this:
+# git update-index --assume-unchanged .idea/mat_core.iml
+.idea/
+!.idea/runConfigurations/
+!.idea/mat_core.iml
+!.idea/vcs.xml
+!.idea/webResources.xml
+
+# Database
+*.db
+*.sqlite3
+
